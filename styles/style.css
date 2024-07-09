@@ -9,6 +9,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
 }
 
 /* header section */
@@ -42,8 +43,6 @@ header .img-container {
 
 header h1 {
     color: rgb(13, 19, 33);
-    font-family: "Azeret Mono", monospace;
-    /* font-family: "Inter", sans-serif; */
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -54,8 +53,6 @@ header p {
     width: 852px;
     height: 52px;
     color: rgb(13, 19, 33);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -68,8 +65,6 @@ header .btn {
     border-radius: 8px;
     background: rgb(13, 19, 33);
 
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 600;
     padding: 21px 24px;
@@ -115,8 +110,6 @@ header a {
 
 .why-content .header h2 {
     color: rgb(13, 19, 33);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -125,8 +118,6 @@ header a {
 
 .why-content .header p {
     color: rgb(13, 19, 33);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -148,7 +139,6 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* align-items: center; */
 }
 
 .box-content {
@@ -164,8 +154,6 @@ header a {
 
 .box-text h3 {
     color: rgba(13, 19, 33, 0.7);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -173,8 +161,6 @@ header a {
 
 .box-text p {
     color: rgb(13, 19, 33);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -183,8 +169,6 @@ header a {
 
 .box-text button {
     color: rgb(13, 19, 33);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 600;
     box-sizing: border-box;
@@ -213,8 +197,6 @@ header a {
 
 #inspiration>h1 {
     color: rgb(13, 19, 33);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 30px;
@@ -224,8 +206,6 @@ header a {
     width: 852px;
     text-align: center;
     color: rgb(13, 19, 33);
-    /* font-family: "Azeret Mono", monospace; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -261,7 +241,6 @@ header a {
 
 #target>h1 {
     color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -269,7 +248,6 @@ header a {
 
 #target>p {
     color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -305,8 +283,6 @@ header a {
 
 .card-content h2 {
     color: rgb(13, 19, 33);
-    /* font-family: Azeret Mono; */
-    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 8px;
@@ -314,8 +290,6 @@ header a {
 
 .card-content p {
     color: rgb(13, 19, 33);
-    /* font-family: Azeret Mono; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
@@ -324,8 +298,6 @@ header a {
 .card-content a {
     text-decoration: underline;
     color: rgb(13, 19, 33);
-    /* font-family: Azeret Mono; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 700;
 }
@@ -350,9 +322,70 @@ header a {
     width: 1140px;
     height: 866px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
 }
+
+#next h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+
+#next p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+#next .box {
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+#next .box-content {
+    width: 941.22px;
+    height: 139px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+#next .box-content .image {
+    width: 94.78px;
+    height: 84.41px;
+    margin-right: 50px;
+}
+
+.box-content h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.box a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 
 
 /* support section */
@@ -364,7 +397,7 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(0.00deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.7)), url("../assets/handshake.jpg");
+    background-image: linear-gradient(0.00deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../assets/handshake.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -374,8 +407,6 @@ header a {
 
 #support h1 {
     color: rgb(255, 255, 255);
-    /* font-family: Azeret Mono; */
-    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -383,8 +414,6 @@ header a {
 
 #support>p {
     color: rgb(255, 255, 255);
-    /* font-family: Azeret Mono; */
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 40px;
@@ -406,7 +435,6 @@ header a {
 
 .feedback>button {
     color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding: 17px 20px;
@@ -418,7 +446,6 @@ header a {
 
 ::placeholder {
     color: rgba(13, 19, 33, 0.4);
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     padding: 19px 20px;
@@ -445,7 +472,6 @@ footer .footer-container {
 
 .footer-container .name {
     color: rgb(13, 19, 33);
-    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 600
 }
