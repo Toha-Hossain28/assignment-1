@@ -191,6 +191,7 @@ header a {
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px;
+    cursor: pointer;
 }
 
 .box-img {
@@ -363,7 +364,7 @@ header a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(180.00deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+    background-image: linear-gradient(0.00deg, rgba(0,0,0,0.5), rgba(0, 0, 0, 0.7)), url("../assets/handshake.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -421,4 +422,35 @@ header a {
     font-size: 16px;
     font-weight: 400;
     padding: 19px 20px;
+}
+
+/* footer */
+footer {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer .footer-container {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container .name {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600
+}
+
+.footer-container .icons {
+    display: flex;
+    gap: 24px;
 }
