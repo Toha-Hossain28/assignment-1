@@ -1,5 +1,6 @@
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 /* font family */
 /* font-family: "Azeret Mono", monospace; */
@@ -41,7 +42,8 @@ header .img-container {
 
 header h1 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    font-family: "Azeret Mono", monospace;
+    /* font-family: "Inter", sans-serif; */
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -52,8 +54,9 @@ header p {
     width: 852px;
     height: 52px;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 14px;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
     margin-left: 30px;
@@ -65,7 +68,8 @@ header .btn {
     border-radius: 8px;
     background: rgb(13, 19, 33);
 
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 600;
     padding: 21px 24px;
@@ -111,7 +115,8 @@ header a {
 
 .why-content .header h2 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -120,7 +125,8 @@ header a {
 
 .why-content .header p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -152,13 +158,14 @@ header a {
 }
 
 .box-text {
-    width: 477px;
+    width: 500px;
     height: 219px;
 }
 
 .box-text h3 {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
@@ -166,7 +173,8 @@ header a {
 
 .box-text p {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -175,7 +183,8 @@ header a {
 
 .box-text button {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 600;
     box-sizing: border-box;
@@ -203,7 +212,8 @@ header a {
 
 #inspiration>h1 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 30px;
@@ -213,7 +223,8 @@ header a {
     width: 852px;
     text-align: center;
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+    /* font-family: "Azeret Mono", monospace; */
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
@@ -230,3 +241,117 @@ header a {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+
+.video-player iframe {
+    border-radius: 16px;
+}
+
+/* target section */
+#target {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 111px;
+}
+
+#target>h1 {
+    color: rgb(13, 19, 33);
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#target>p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.card-content {
+    width: 284px;
+    height: 219px;
+
+}
+
+.card-container .card {
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content>img {
+    margin-bottom: 24px;
+}
+
+.card-content h2 {
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.card-content a {
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#html-card {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#css-card {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#js-card {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* next section */
+#next {
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-bottom: 50px;
+}
+
+
+/* support section */
