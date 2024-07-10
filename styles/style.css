@@ -294,6 +294,7 @@ header a {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+    opacity: 0.7;
 }
 
 .card-content a {
