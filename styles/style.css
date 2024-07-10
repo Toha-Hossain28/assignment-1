@@ -113,7 +113,7 @@ header a {
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
-    text-align: center;
+    text-align: center;;
 }
 
 .why-content .header p {
@@ -157,6 +157,7 @@ header a {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
+    opacity: 0.7;
 }
 
 .box-text p {
